@@ -1,0 +1,35 @@
+body {
+  font-family: "Tahoma", sans-serif;
+  margin: 0;
+  background: url('https://images.unsplash.com/photo-1505253210343-d4fd2ac4a301') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  padding: 50px 20px;
+}
+
+.chef-img {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 80px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.social {
+  margin-top: 30px;
+}
+
+.social a {
+  margin: 0 10px;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.social a:hover {
+  transform: scale(1.2);
+}
